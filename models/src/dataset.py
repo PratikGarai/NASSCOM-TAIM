@@ -1,23 +1,33 @@
-# %%
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from torch.utils import data
+import torch.optim as optim
+from torch.optim import lr_scheduler
+from torch.utils.data import Dataset, DataLoader
+from torchsummary import summary
+
+import numpy as np
 import pandas as pd
-from typing import Optional, Dict, List, Tuple
+import random
+from glob import glob
+import os, shutil
+import gc
+from PIL import Image
+from typing import Dict, List, Tuple, Any, Optional
+from collections import namedtuple, defaultdict
+import copy
+
+import cv2
+import matplotlib.pyplot as plt
 
 
-# %%
-class Pix2PixRNNDataset(data.Dataset):
-    def __init__(self, aqi_df: pd.DataFrame, moisture_df: pd.DataFrame) -> None:
-        self.aqi_df = aqi_df
-        self.moisture_df = moisture_df
-
+class Pix2PixRNNDataset(Dataset):
+    # TODO: Implement Datasets
+    def __init__(self):
+        super(Pix2PixRNNDataset, self).__init__()
+    
     def __len__(self) -> int:
-        return len(self.aqi_df)
-
-    def __getitem__(self, ix: int) -> Dict[str, torch.Tensor]:
-        # TODO: Implement __getitem__ method
-        return {
-            "data": torch.ones((3, 3))
-        }
+        pass
+    
+    def __getitem__(self, ix: int) -> Tuple[torch.Tensor, torch.Tensor]:
+        pass
