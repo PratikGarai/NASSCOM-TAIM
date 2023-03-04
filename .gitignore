@@ -3,3 +3,5 @@
 images/
 *.zip
 *.geojson
+.idea/
+
