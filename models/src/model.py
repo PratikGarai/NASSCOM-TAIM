@@ -1,6 +1,7 @@
 import torch
 import torch.nn as nn
-import torch.nn.functional as F
+from typing import Optional, Tuple
+from layers import EncoderLayer, DecoderLayer
 
 
 class Pix2PixRNN(nn.Module):
@@ -32,7 +33,7 @@ class Pix2PixRNN(nn.Module):
 
     def _init_hidden_states(self, bs: int) -> Tuple[torch.Tensor]:
         return torch.zeros(self.bidirectional*self.num_layers, bs, self.hidden_size), \
-    torch.zeros(self.bidirectional*self.num_layers, bs, self.hidden_size)
+            torch.zeros(self.bidirectional*self.num_layers, bs, self.hidden_size)
     
     def forward(self, x: torch.Tensor) -> Tuple[torch.Tensor]:
         emb = None

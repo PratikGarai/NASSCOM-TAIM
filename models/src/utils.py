@@ -1,8 +1,10 @@
 import torch
-import torch.nn as nn
-import torch.nn.functional as F
 import torch.optim as optim
 from torch.optim import lr_scheduler
+from config import config
+import numpy as np
+import random
+import os
 
 
 def get_optimizer(optimizer: optim):
@@ -32,7 +34,7 @@ def get_optimizer(optimizer: optim):
             optimizer=optimizer, 
             gamma=0.85
         )
-    elif config.scheduler == None:
+    elif config.scheduler is None:
         scheduler = None
     else:
         raise NotImplementedError("The Scheduler you have asked has not been implemented")

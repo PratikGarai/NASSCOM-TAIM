@@ -1,3 +1,6 @@
+import torch
+
+
 class config:
     seed          = 42
     exp_name      = 'nasscom-taim'
