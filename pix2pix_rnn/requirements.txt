@@ -8,3 +8,4 @@ pandas
 wandb
 optuna
 mlflow
+pretty_errors
