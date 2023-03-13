@@ -9,3 +9,5 @@ wandb
 optuna
 mlflow
 pretty_errors
+torchtemplates
+fastapi[all]
