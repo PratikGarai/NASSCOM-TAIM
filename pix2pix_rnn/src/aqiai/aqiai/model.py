@@ -6,7 +6,7 @@ import transformers
 import pandas as pd
 from typing import Dict, List
 import numpy as np
-from testing.config import config
+from aqiai.config import config
 
 
 class Model(nn.Module):

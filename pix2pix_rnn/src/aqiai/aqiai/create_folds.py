@@ -1,6 +1,6 @@
 import pandas as pd
 from sklearn import model_selection
-from src.config import config
+from aqiai.config import config
 
 if __name__ == '__main__':
     kfold = model_selection.KFold(n_splits=config.num_folds)

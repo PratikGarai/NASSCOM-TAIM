@@ -6,7 +6,7 @@ import albumentations as A
 from albumentations.pytorch import ToTensorV2
 from PIL import Image
 import numpy as np
-from testing.config import config
+from aqiai.config import config
 
 
 class Image2ImageDataset(Dataset):

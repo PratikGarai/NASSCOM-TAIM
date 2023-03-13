@@ -4,7 +4,7 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 from torch.optim import lr_scheduler
-from testing.config import config
+from aqiai.config import config
 import numpy as np
 import random
 import os

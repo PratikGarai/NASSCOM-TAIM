@@ -1,5 +1,6 @@
 import torch
 from pathlib import Path
+import os
 
 BASE_DIR = Path(__file__).parent.parent.absolute()
 CONFIG_DIR = Path(BASE_DIR, "config")
@@ -13,18 +14,18 @@ if not os.path.exists(DATA_DIR):
 class config:
     # Config
     seed          = 42
-    project_name  = None
-    exp_name      = None
-    model_name    = None
-    base_model    = None
-    train_bs      = None
-    valid_bs      = None
+    project_name  = 'nasscom-taim'
+    exp_name      = 'aqi'
+    model_name    = 'base'
+    base_model    = 'base'
+    train_bs      = 8
+    valid_bs      = 2 * train_bs
     image_size    = [224, 224]
     comment       = f'model-{model_name}|dim-{image_size[0]}x{image_size[1]}'
     epochs        = 10
 
     # Optimizers
-    optimizer     = None
+    optimizer     = 'adam'
     learning_rate = 3e-4
     rho           = 0.9
     eps           = 1e-6
@@ -34,7 +35,7 @@ class config:
     alpha         = 0.99
 
     # Scheduler
-    scheduler     = None
+    scheduler     = 'CosineAnnealingLR'
     min_lr        = 1e-6
     T_max         = int(30000/train_bs*epochs)+50
     T_0           = 25
@@ -50,4 +51,4 @@ class config:
     iteration_num = 1
 
     # Training Data Paths
-    train_path    = None
+    train_path    = ''

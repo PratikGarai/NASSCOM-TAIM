@@ -5,7 +5,7 @@ from torch.optim import lr_scheduler
 from torch.utils.data import DataLoader
 from tqdm.auto import tqdm
 import wandb
-from testing.config import config
+from aqiai.config import config
 
 
 def train_one_step(
