@@ -1,7 +1,6 @@
 # setup.py
 from pathlib import Path
-from setuptools import find_namespace_packages, setup
-
+from setuptools import find_namespace_packages, setuptools
 
 BASE_DIR = Path(__file__).parent
 with open(Path(BASE_DIR, "requirements.txt"), "r") as f:
