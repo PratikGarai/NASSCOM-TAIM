@@ -336,7 +336,7 @@ soupsieve==2.3.2.post1
 sqlalchemy==1.4.46
 sqlparse==0.4.3
 stack-data==0.6.2
-starlette==0.22.0
+starlette==0.25.0
 starsessions==1.3.0
 stopit==1.1.2
 streamlit-chat==0.0.2.2
