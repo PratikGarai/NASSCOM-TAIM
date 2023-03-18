@@ -181,7 +181,7 @@ llvmlite==0.39.1
 loguru==0.6.0
 lxml==4.9.2
 mako==1.2.4
-markdown-it-py==2.1.0
+markdown-it-py==2.2.0
 markdown==3.4.1
 markupsafe==2.1.2
 marshmallow-enum==1.5.1
