@@ -1,5 +1,5 @@
 
-### Telangana Academic Grand Challenge on Climate Change
+# Telangana Academic Grand Challenge on Climate Change
 This repository is for the project for the Academic Grand Challenge on Climate Change Hackathon conducted by Nasscom in Collaboration with the Telangana Government and Capgemini
 ## Table of Contents
 - [Getting Started](#getting-started)
