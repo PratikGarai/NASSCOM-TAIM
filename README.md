@@ -79,13 +79,13 @@ This repository is for the project for the Academic Grand Challenge on Climate C
 * [LinkedIn](https://www.linkedin.com/in/neeraj-j-manurkar-64372b212/)
 
 #### Pratik Garai
-* [GitHub](https://github.com/iaraGkitarP)
+* [GitHub](https://github.com/PratikGarai)
 * [LinkedIn](https://www.linkedin.com/in/pratik-garai-bab1a4191/)
 
 #### Aravind P
-* [GitHub](https://github.com/ARAVIND1828)
+* [GitHub](https://github.com/ARTHURFLECK1828)
 * [LinkedIn](https://www.linkedin.com/in/aravind-p-92a5061b8/)
 
 #### Aneesh Aparajit G
-* [GitHub](https://github.com/aneeshaparajit)
+* [GitHub](https://github.com/aneesh-aparajit)
 * [LinkedIn](https://www.linkedin.com/in/aneesh-aparajit/)
