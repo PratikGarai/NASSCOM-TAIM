@@ -1,10 +1,3 @@
-<<<<<<< Updated upstream
-# NASSCOM-TAIM
-
-## Problem Statement
-
-To find occurences of heatwaves.
-=======
 
 ### Telangana Academic Grand Challenge on Climate Change
 This repository is for the project for the Academic Grand Challenge on Climate Change Hackathon conducted by Nasscom in Collaboration with the Telangana Government and Capgemini
@@ -96,6 +89,3 @@ This repository is for the project for the Academic Grand Challenge on Climate C
 #### Aneesh Aparajit G
 * [GitHub](https://github.com/aneeshaparajit)
 * [LinkedIn](https://www.linkedin.com/in/aneesh-aparajit/)
-
-https://sonarcloud.io/summary/overall?id=examly-test_ea204600-aa0a-4fc8-9355-7db0f82d6b58
->>>>>>> Stashed changes
