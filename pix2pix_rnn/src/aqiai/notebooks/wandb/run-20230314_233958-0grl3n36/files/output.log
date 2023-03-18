@@ -1,0 +1,6 @@
+
+					### EPOCH 1 ###
+Train:  15%|█▉           | 7/48 [00:00<00:03, 10.32it/s, loss=0.002, lr=0.00030]wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+Train:  40%|████▊       | 19/48 [00:01<00:02, 10.96it/s, loss=0.002, lr=0.00030]
+Train:  60%|███████▎    | 29/48 [00:02<00:01, 10.96it/s, loss=0.001, lr=0.00030]wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+Train:  67%|████████    | 32/48 [00:03<00:01, 10.56it/s, loss=0.001, lr=0.00030]

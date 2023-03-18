@@ -1,0 +1,156 @@
+2023-03-14 22:24:29,172 INFO    StreamThr :16153 [internal.py:wandb_internal():87] W&B internal server running at pid: 16153, started at: 2023-03-14 22:24:29.171592
+2023-03-14 22:24:29,174 DEBUG   HandlerThread:16153 [handler.py:handle_request():144] handle_request: status
+2023-03-14 22:24:29,181 INFO    WriterThread:16153 [datastore.py:open_for_write():85] open: /Users/aneeshaparajit/Desktop/NASSCOM-TAIM/pix2pix_rnn/src/aqiai/notebooks/wandb/run-20230314_222429-49ok5khu/run-49ok5khu.wandb
+2023-03-14 22:24:29,182 DEBUG   SenderThread:16153 [sender.py:send():336] send: header
+2023-03-14 22:24:29,204 DEBUG   SenderThread:16153 [sender.py:send():336] send: run
+2023-03-14 22:24:30,399 INFO    SenderThread:16153 [dir_watcher.py:__init__():216] watching files in: /Users/aneeshaparajit/Desktop/NASSCOM-TAIM/pix2pix_rnn/src/aqiai/notebooks/wandb/run-20230314_222429-49ok5khu/files
+2023-03-14 22:24:30,400 INFO    SenderThread:16153 [sender.py:_start_run_threads():1067] run started: 49ok5khu with start time 1678812869.168868
+2023-03-14 22:24:30,400 DEBUG   SenderThread:16153 [sender.py:send_request():363] send_request: summary_record
+2023-03-14 22:24:30,401 INFO    SenderThread:16153 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-14 22:24:30,408 DEBUG   HandlerThread:16153 [handler.py:handle_request():144] handle_request: check_version
+2023-03-14 22:24:30,409 DEBUG   SenderThread:16153 [sender.py:send_request():363] send_request: check_version
+2023-03-14 22:24:31,408 INFO    Thread-13 :16153 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/aneeshaparajit/Desktop/NASSCOM-TAIM/pix2pix_rnn/src/aqiai/notebooks/wandb/run-20230314_222429-49ok5khu/files/wandb-summary.json
+2023-03-14 22:24:32,158 DEBUG   HandlerThread:16153 [handler.py:handle_request():144] handle_request: run_start
+2023-03-14 22:24:32,172 DEBUG   HandlerThread:16153 [system_info.py:__init__():31] System info init
+2023-03-14 22:24:32,172 DEBUG   HandlerThread:16153 [system_info.py:__init__():46] System info init done
+2023-03-14 22:24:32,172 INFO    HandlerThread:16153 [system_monitor.py:start():151] Starting system monitor
+2023-03-14 22:24:32,172 INFO    SystemMonitor:16153 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-14 22:24:32,173 INFO    HandlerThread:16153 [system_monitor.py:probe():172] Collecting system info
+2023-03-14 22:24:32,173 INFO    SystemMonitor:16153 [interfaces.py:start():168] Started cpu
+2023-03-14 22:24:32,173 DEBUG   HandlerThread:16153 [system_info.py:probe():195] Probing system
+2023-03-14 22:24:32,173 INFO    SystemMonitor:16153 [interfaces.py:start():168] Started disk
+2023-03-14 22:24:32,176 INFO    SystemMonitor:16153 [interfaces.py:start():168] Started gpuapple
+2023-03-14 22:24:32,177 INFO    SystemMonitor:16153 [interfaces.py:start():168] Started memory
+2023-03-14 22:24:32,178 INFO    SystemMonitor:16153 [interfaces.py:start():168] Started network
+2023-03-14 22:24:32,183 DEBUG   HandlerThread:16153 [system_info.py:_probe_git():180] Probing git
+2023-03-14 22:24:32,202 DEBUG   HandlerThread:16153 [system_info.py:_probe_git():188] Probing git done
+2023-03-14 22:24:32,203 DEBUG   HandlerThread:16153 [system_info.py:probe():241] Probing system done
+2023-03-14 22:24:32,203 DEBUG   HandlerThread:16153 [system_monitor.py:probe():181] {'os': 'macOS-13.0-arm64-arm-64bit', 'python': '3.10.8', 'heartbeatAt': '2023-03-14T16:54:32.174005', 'startedAt': '2023-03-14T16:54:29.144064', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': 'pix2pix_rnn/src/aqiai/notebooks/aqi.ipynb', 'root': '/Users/aneeshaparajit/Desktop/NASSCOM-TAIM', 'git': {'remote': 'https://github.com/PratikGarai/NASSCOM-TAIM.git', 'commit': '8a02ab935d5f78f0b544cfa0e910b6ae19ab79fc'}, 'email': 'aneeshaparajit.g2002@gmail.com', 'host': 'Aneesh.local', 'username': 'aneeshaparajit', 'executable': '/Users/aneeshaparajit/miniconda3/bin/python', 'cpu_count': 8, 'cpu_count_logical': 8, 'disk': {'total': 926.3517189025879, 'used': 11.055213928222656}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 16.0}}
+2023-03-14 22:24:32,203 INFO    HandlerThread:16153 [system_monitor.py:probe():182] Finished collecting system info
+2023-03-14 22:24:32,203 INFO    HandlerThread:16153 [system_monitor.py:probe():185] Publishing system info
+2023-03-14 22:24:32,203 DEBUG   HandlerThread:16153 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-03-14 22:24:32,203 DEBUG   HandlerThread:16153 [system_info.py:_save_pip():67] Saving pip packages done
+2023-03-14 22:24:32,204 DEBUG   HandlerThread:16153 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-03-14 22:24:32,407 INFO    Thread-13 :16153 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/aneeshaparajit/Desktop/NASSCOM-TAIM/pix2pix_rnn/src/aqiai/notebooks/wandb/run-20230314_222429-49ok5khu/files/conda-environment.yaml
+2023-03-14 22:24:32,407 INFO    Thread-13 :16153 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/aneeshaparajit/Desktop/NASSCOM-TAIM/pix2pix_rnn/src/aqiai/notebooks/wandb/run-20230314_222429-49ok5khu/files/requirements.txt
+2023-03-14 22:24:41,990 DEBUG   HandlerThread:16153 [system_info.py:_save_conda():86] Saving conda packages done
+2023-03-14 22:24:41,991 INFO    HandlerThread:16153 [system_monitor.py:probe():187] Finished publishing system info
+2023-03-14 22:24:41,998 DEBUG   HandlerThread:16153 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 22:24:41,998 DEBUG   HandlerThread:16153 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 22:24:41,998 DEBUG   HandlerThread:16153 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 22:24:41,998 DEBUG   SenderThread:16153 [sender.py:send():336] send: files
+2023-03-14 22:24:41,998 INFO    SenderThread:16153 [sender.py:_save_file():1321] saving file wandb-metadata.json with policy now
+2023-03-14 22:24:42,456 INFO    Thread-13 :16153 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/aneeshaparajit/Desktop/NASSCOM-TAIM/pix2pix_rnn/src/aqiai/notebooks/wandb/run-20230314_222429-49ok5khu/files/conda-environment.yaml
+2023-03-14 22:24:42,456 INFO    Thread-13 :16153 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/aneeshaparajit/Desktop/NASSCOM-TAIM/pix2pix_rnn/src/aqiai/notebooks/wandb/run-20230314_222429-49ok5khu/files/wandb-metadata.json
+2023-03-14 22:24:43,185 INFO    wandb-upload_0:16153 [upload_job.py:push():138] Uploaded file /var/folders/9c/hg99j16578569gfzb3w5bzdh0000gn/T/tmpzkulq3jqwandb/8ub8elnu-wandb-metadata.json
+2023-03-14 22:24:43,523 DEBUG   SenderThread:16153 [sender.py:send():336] send: exit
+2023-03-14 22:24:43,523 INFO    SenderThread:16153 [sender.py:send_exit():559] handling exit code: 0
+2023-03-14 22:24:43,523 INFO    SenderThread:16153 [sender.py:send_exit():561] handling runtime: 11
+2023-03-14 22:24:43,524 INFO    SenderThread:16153 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-14 22:24:43,525 INFO    SenderThread:16153 [sender.py:send_exit():567] send defer
+2023-03-14 22:24:43,525 DEBUG   HandlerThread:16153 [handler.py:handle_request():144] handle_request: defer
+2023-03-14 22:24:43,525 INFO    HandlerThread:16153 [handler.py:handle_request_defer():170] handle defer: 0
+2023-03-14 22:24:43,526 DEBUG   SenderThread:16153 [sender.py:send_request():363] send_request: defer
+2023-03-14 22:24:43,526 INFO    SenderThread:16153 [sender.py:send_request_defer():583] handle sender defer: 0
+2023-03-14 22:24:43,526 INFO    SenderThread:16153 [sender.py:transition_state():587] send defer: 1
+2023-03-14 22:24:43,526 DEBUG   HandlerThread:16153 [handler.py:handle_request():144] handle_request: defer
+2023-03-14 22:24:43,526 INFO    HandlerThread:16153 [handler.py:handle_request_defer():170] handle defer: 1
+2023-03-14 22:24:43,526 DEBUG   SenderThread:16153 [sender.py:send_request():363] send_request: defer
+2023-03-14 22:24:43,526 INFO    SenderThread:16153 [sender.py:send_request_defer():583] handle sender defer: 1
+2023-03-14 22:24:43,526 INFO    SenderThread:16153 [sender.py:transition_state():587] send defer: 2
+2023-03-14 22:24:43,526 DEBUG   HandlerThread:16153 [handler.py:handle_request():144] handle_request: defer
+2023-03-14 22:24:43,526 INFO    HandlerThread:16153 [handler.py:handle_request_defer():170] handle defer: 2
+2023-03-14 22:24:43,526 INFO    HandlerThread:16153 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-14 22:24:43,550 DEBUG   SystemMonitor:16153 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-14 22:24:43,550 DEBUG   SystemMonitor:16153 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-14 22:24:43,550 DEBUG   SystemMonitor:16153 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-14 22:24:43,550 INFO    HandlerThread:16153 [interfaces.py:finish():175] Joined cpu
+2023-03-14 22:24:43,551 INFO    HandlerThread:16153 [interfaces.py:finish():175] Joined disk
+2023-03-14 22:24:43,552 INFO    HandlerThread:16153 [interfaces.py:finish():175] Joined gpuapple
+2023-03-14 22:24:43,552 INFO    HandlerThread:16153 [interfaces.py:finish():175] Joined memory
+2023-03-14 22:24:43,552 INFO    HandlerThread:16153 [interfaces.py:finish():175] Joined network
+2023-03-14 22:24:43,552 DEBUG   SenderThread:16153 [sender.py:send_request():363] send_request: defer
+2023-03-14 22:24:43,552 INFO    SenderThread:16153 [sender.py:send_request_defer():583] handle sender defer: 2
+2023-03-14 22:24:43,553 INFO    SenderThread:16153 [sender.py:transition_state():587] send defer: 3
+2023-03-14 22:24:43,553 DEBUG   SenderThread:16153 [sender.py:send():336] send: telemetry
+2023-03-14 22:24:43,553 DEBUG   SenderThread:16153 [sender.py:send():336] send: stats
+2023-03-14 22:24:43,553 DEBUG   HandlerThread:16153 [handler.py:handle_request():144] handle_request: defer
+2023-03-14 22:24:43,553 INFO    HandlerThread:16153 [handler.py:handle_request_defer():170] handle defer: 3
+2023-03-14 22:24:43,553 DEBUG   SenderThread:16153 [sender.py:send_request():363] send_request: defer
+2023-03-14 22:24:43,553 INFO    SenderThread:16153 [sender.py:send_request_defer():583] handle sender defer: 3
+2023-03-14 22:24:43,553 INFO    SenderThread:16153 [sender.py:transition_state():587] send defer: 4
+2023-03-14 22:24:43,554 DEBUG   HandlerThread:16153 [handler.py:handle_request():144] handle_request: defer
+2023-03-14 22:24:43,554 INFO    HandlerThread:16153 [handler.py:handle_request_defer():170] handle defer: 4
+2023-03-14 22:24:43,554 DEBUG   SenderThread:16153 [sender.py:send_request():363] send_request: defer
+2023-03-14 22:24:43,554 INFO    SenderThread:16153 [sender.py:send_request_defer():583] handle sender defer: 4
+2023-03-14 22:24:43,554 INFO    SenderThread:16153 [sender.py:transition_state():587] send defer: 5
+2023-03-14 22:24:43,554 DEBUG   HandlerThread:16153 [handler.py:handle_request():144] handle_request: defer
+2023-03-14 22:24:43,554 INFO    HandlerThread:16153 [handler.py:handle_request_defer():170] handle defer: 5
+2023-03-14 22:24:43,554 DEBUG   SenderThread:16153 [sender.py:send():336] send: summary
+2023-03-14 22:24:43,555 INFO    SenderThread:16153 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-14 22:24:43,555 DEBUG   SenderThread:16153 [sender.py:send_request():363] send_request: defer
+2023-03-14 22:24:43,555 INFO    SenderThread:16153 [sender.py:send_request_defer():583] handle sender defer: 5
+2023-03-14 22:24:43,555 INFO    SenderThread:16153 [sender.py:transition_state():587] send defer: 6
+2023-03-14 22:24:43,555 DEBUG   HandlerThread:16153 [handler.py:handle_request():144] handle_request: defer
+2023-03-14 22:24:43,555 INFO    HandlerThread:16153 [handler.py:handle_request_defer():170] handle defer: 6
+2023-03-14 22:24:43,555 DEBUG   SenderThread:16153 [sender.py:send_request():363] send_request: defer
+2023-03-14 22:24:43,556 INFO    SenderThread:16153 [sender.py:send_request_defer():583] handle sender defer: 6
+2023-03-14 22:24:43,558 DEBUG   HandlerThread:16153 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 22:24:44,070 INFO    SenderThread:16153 [sender.py:transition_state():587] send defer: 7
+2023-03-14 22:24:44,070 DEBUG   HandlerThread:16153 [handler.py:handle_request():144] handle_request: defer
+2023-03-14 22:24:44,070 INFO    HandlerThread:16153 [handler.py:handle_request_defer():170] handle defer: 7
+2023-03-14 22:24:44,070 DEBUG   SenderThread:16153 [sender.py:send_request():363] send_request: defer
+2023-03-14 22:24:44,071 INFO    SenderThread:16153 [sender.py:send_request_defer():583] handle sender defer: 7
+2023-03-14 22:24:44,071 INFO    SenderThread:16153 [sender.py:transition_state():587] send defer: 8
+2023-03-14 22:24:44,071 DEBUG   HandlerThread:16153 [handler.py:handle_request():144] handle_request: defer
+2023-03-14 22:24:44,071 INFO    HandlerThread:16153 [handler.py:handle_request_defer():170] handle defer: 8
+2023-03-14 22:24:44,071 DEBUG   SenderThread:16153 [sender.py:send_request():363] send_request: defer
+2023-03-14 22:24:44,071 INFO    SenderThread:16153 [sender.py:send_request_defer():583] handle sender defer: 8
+2023-03-14 22:24:44,071 INFO    SenderThread:16153 [sender.py:transition_state():587] send defer: 9
+2023-03-14 22:24:44,072 DEBUG   HandlerThread:16153 [handler.py:handle_request():144] handle_request: defer
+2023-03-14 22:24:44,072 INFO    HandlerThread:16153 [handler.py:handle_request_defer():170] handle defer: 9
+2023-03-14 22:24:44,072 DEBUG   SenderThread:16153 [sender.py:send_request():363] send_request: defer
+2023-03-14 22:24:44,072 INFO    SenderThread:16153 [sender.py:send_request_defer():583] handle sender defer: 9
+2023-03-14 22:24:44,072 INFO    SenderThread:16153 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-03-14 22:24:44,467 INFO    SenderThread:16153 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/aneeshaparajit/Desktop/NASSCOM-TAIM/pix2pix_rnn/src/aqiai/notebooks/wandb/run-20230314_222429-49ok5khu/files/config.yaml
+2023-03-14 22:24:44,468 INFO    SenderThread:16153 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/aneeshaparajit/Desktop/NASSCOM-TAIM/pix2pix_rnn/src/aqiai/notebooks/wandb/run-20230314_222429-49ok5khu/files/wandb-summary.json
+2023-03-14 22:24:44,469 INFO    SenderThread:16153 [dir_watcher.py:finish():392] scan: /Users/aneeshaparajit/Desktop/NASSCOM-TAIM/pix2pix_rnn/src/aqiai/notebooks/wandb/run-20230314_222429-49ok5khu/files
+2023-03-14 22:24:44,469 INFO    SenderThread:16153 [dir_watcher.py:finish():406] scan save: /Users/aneeshaparajit/Desktop/NASSCOM-TAIM/pix2pix_rnn/src/aqiai/notebooks/wandb/run-20230314_222429-49ok5khu/files/requirements.txt requirements.txt
+2023-03-14 22:24:44,469 INFO    SenderThread:16153 [dir_watcher.py:finish():406] scan save: /Users/aneeshaparajit/Desktop/NASSCOM-TAIM/pix2pix_rnn/src/aqiai/notebooks/wandb/run-20230314_222429-49ok5khu/files/config.yaml config.yaml
+2023-03-14 22:24:44,474 INFO    SenderThread:16153 [dir_watcher.py:finish():406] scan save: /Users/aneeshaparajit/Desktop/NASSCOM-TAIM/pix2pix_rnn/src/aqiai/notebooks/wandb/run-20230314_222429-49ok5khu/files/wandb-summary.json wandb-summary.json
+2023-03-14 22:24:44,477 INFO    SenderThread:16153 [dir_watcher.py:finish():406] scan save: /Users/aneeshaparajit/Desktop/NASSCOM-TAIM/pix2pix_rnn/src/aqiai/notebooks/wandb/run-20230314_222429-49ok5khu/files/conda-environment.yaml conda-environment.yaml
+2023-03-14 22:24:44,478 INFO    SenderThread:16153 [dir_watcher.py:finish():406] scan save: /Users/aneeshaparajit/Desktop/NASSCOM-TAIM/pix2pix_rnn/src/aqiai/notebooks/wandb/run-20230314_222429-49ok5khu/files/wandb-metadata.json wandb-metadata.json
+2023-03-14 22:24:44,481 INFO    SenderThread:16153 [sender.py:transition_state():587] send defer: 10
+2023-03-14 22:24:44,481 DEBUG   HandlerThread:16153 [handler.py:handle_request():144] handle_request: defer
+2023-03-14 22:24:44,481 INFO    HandlerThread:16153 [handler.py:handle_request_defer():170] handle defer: 10
+2023-03-14 22:24:44,484 DEBUG   SenderThread:16153 [sender.py:send_request():363] send_request: defer
+2023-03-14 22:24:44,484 INFO    SenderThread:16153 [sender.py:send_request_defer():583] handle sender defer: 10
+2023-03-14 22:24:44,484 INFO    SenderThread:16153 [file_pusher.py:finish():162] shutting down file pusher
+2023-03-14 22:24:44,527 DEBUG   HandlerThread:16153 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-14 22:24:44,528 DEBUG   SenderThread:16153 [sender.py:send_request():363] send_request: poll_exit
+2023-03-14 22:24:45,534 DEBUG   HandlerThread:16153 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-14 22:24:45,534 DEBUG   SenderThread:16153 [sender.py:send_request():363] send_request: poll_exit
+2023-03-14 22:24:45,543 INFO    wandb-upload_0:16153 [upload_job.py:push():138] Uploaded file /Users/aneeshaparajit/Desktop/NASSCOM-TAIM/pix2pix_rnn/src/aqiai/notebooks/wandb/run-20230314_222429-49ok5khu/files/requirements.txt
+2023-03-14 22:24:45,544 INFO    wandb-upload_1:16153 [upload_job.py:push():138] Uploaded file /Users/aneeshaparajit/Desktop/NASSCOM-TAIM/pix2pix_rnn/src/aqiai/notebooks/wandb/run-20230314_222429-49ok5khu/files/config.yaml
+2023-03-14 22:24:45,545 INFO    wandb-upload_2:16153 [upload_job.py:push():138] Uploaded file /Users/aneeshaparajit/Desktop/NASSCOM-TAIM/pix2pix_rnn/src/aqiai/notebooks/wandb/run-20230314_222429-49ok5khu/files/wandb-summary.json
+2023-03-14 22:24:45,545 INFO    wandb-upload_3:16153 [upload_job.py:push():138] Uploaded file /Users/aneeshaparajit/Desktop/NASSCOM-TAIM/pix2pix_rnn/src/aqiai/notebooks/wandb/run-20230314_222429-49ok5khu/files/conda-environment.yaml
+2023-03-14 22:24:45,752 INFO    Thread-12 (_thread_body):16153 [sender.py:transition_state():587] send defer: 11
+2023-03-14 22:24:45,753 DEBUG   HandlerThread:16153 [handler.py:handle_request():144] handle_request: defer
+2023-03-14 22:24:45,753 INFO    HandlerThread:16153 [handler.py:handle_request_defer():170] handle defer: 11
+2023-03-14 22:24:45,753 DEBUG   SenderThread:16153 [sender.py:send_request():363] send_request: defer
+2023-03-14 22:24:45,754 INFO    SenderThread:16153 [sender.py:send_request_defer():583] handle sender defer: 11
+2023-03-14 22:24:45,754 INFO    SenderThread:16153 [file_pusher.py:join():167] waiting for file pusher
+2023-03-14 22:24:45,754 INFO    SenderThread:16153 [sender.py:transition_state():587] send defer: 12
+2023-03-14 22:24:45,754 DEBUG   HandlerThread:16153 [handler.py:handle_request():144] handle_request: defer
+2023-03-14 22:24:45,754 INFO    HandlerThread:16153 [handler.py:handle_request_defer():170] handle defer: 12
+2023-03-14 22:24:45,755 DEBUG   SenderThread:16153 [sender.py:send_request():363] send_request: defer
+2023-03-14 22:24:45,755 INFO    SenderThread:16153 [sender.py:send_request_defer():583] handle sender defer: 12
+2023-03-14 22:24:46,251 WARNING StreamThr :16153 [internal.py:is_dead():415] Internal process exiting, parent pid 16143 disappeared
+2023-03-14 22:24:46,251 ERROR   StreamThr :16153 [internal.py:wandb_internal():153] Internal process shutdown.
+2023-03-14 22:24:46,540 DEBUG   HandlerThread:16153 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-14 22:24:46,540 INFO    HandlerThread:16153 [handler.py:finish():841] shutting down handler
+2023-03-14 22:24:46,540 INFO    WriterThread:16153 [datastore.py:close():299] close: /Users/aneeshaparajit/Desktop/NASSCOM-TAIM/pix2pix_rnn/src/aqiai/notebooks/wandb/run-20230314_222429-49ok5khu/run-49ok5khu.wandb
+2023-03-14 22:24:46,723 INFO    SenderThread:16153 [sender.py:transition_state():587] send defer: 13
+2023-03-14 22:24:46,724 INFO    SenderThread:16153 [sender.py:finish():1493] shutting down sender
+2023-03-14 22:24:46,724 INFO    SenderThread:16153 [file_pusher.py:finish():162] shutting down file pusher
+2023-03-14 22:24:46,724 INFO    SenderThread:16153 [file_pusher.py:join():167] waiting for file pusher

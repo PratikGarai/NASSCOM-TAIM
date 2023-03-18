@@ -1,0 +1,33 @@
+{
+    "os": "macOS-13.0-arm64-arm-64bit",
+    "python": "3.10.8",
+    "heartbeatAt": "2023-03-15T06:39:22.633849",
+    "startedAt": "2023-03-15T06:38:50.976815",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "NASSCOM-TAIM/pix2pix_rnn/src/aqiai/notebooks/aqi.ipynb",
+    "root": "/Users/aneeshaparajit/Desktop/NASSCOM-TAIM",
+    "git": {
+        "remote": "https://github.com/PratikGarai/NASSCOM-TAIM.git",
+        "commit": "423a7bcb3a047ac3b9284414544a74ddd9d2c701"
+    },
+    "email": "aneeshaparajit.g2002@gmail.com",
+    "host": "Aneesh.local",
+    "username": "aneeshaparajit",
+    "executable": "/Users/aneeshaparajit/miniconda3/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "total": 926.3517189025879,
+        "used": 11.055213928222656
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

@@ -1,0 +1,1 @@
+{"running train loss": 0.001557377573287037, "running learning rate": 0.0002999999998111414, "training ssim": 0.018412360921502113, "training psnr": 4.815898895263672, "_timestamp": 1678817195.468191, "_runtime": 16.664045810699463, "_step": 47, "_wandb": {"runtime": 23}}
