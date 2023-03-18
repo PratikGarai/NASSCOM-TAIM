@@ -407,7 +407,7 @@ websocket-client==1.5.0
 websockets==10.4
 werkzeug==2.2.3
 whatthepatch==1.0.4
-wheel==0.37.1
+wheel==0.38.1
 widgetsnbextension==4.0.5
 wrapt==1.14.1
 wsproto==1.2.0
